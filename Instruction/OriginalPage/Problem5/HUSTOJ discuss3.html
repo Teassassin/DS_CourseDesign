@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://10.10.31.152/problem.php?cid=1003&pid=4 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="http://10.10.31.152/favicon.ico">
+
+	<title>
+		HUSTOJ discuss3	</title>
+
+	
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="./HUSTOJ discuss3_files/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="./HUSTOJ discuss3_files/bootstrap-theme.min.css">
+<link rel="stylesheet" href="./HUSTOJ discuss3_files/white.css">
+<link rel="stylesheet" href="./HUSTOJ discuss3_files/katex.min.css">
+<link rel="stylesheet" href="./HUSTOJ discuss3_files/mathjax.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div class="container">
+		      <!-- Static navbar -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://10.10.31.152/"><i class="icon-home"></i>HUSTOJ</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+	      	                    <li><a href="http://10.10.31.152/faqs.php">
+			<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> 常见问答</a></li>
+		      			      <li><a href="http://10.10.31.152/bbs.php?cid=1003"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 讨论版</a></li>
+			      
+	      	                    <li><a href="http://10.10.31.152/problemset.php"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 问题</a></li>
+              <li> <a href="http://10.10.31.152/category.php"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> 来源/分类</a></li>
+              <li><a href="http://10.10.31.152/status.php"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> 状态</a></li>
+              <li><a href="http://10.10.31.152/ranklist.php"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 排名</a></li>
+              <li><a href="http://10.10.31.152/contest.php"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> 竞赛&amp;作业</a></li>
+	      	      <li><a>[</a></li>
+              <li class="active"><a href="http://10.10.31.152/contest.php?cid=1003">
+			问题	      </a></li>
+               <li class="active"><a href="http://10.10.31.152/status.php?cid=1003">
+			状态	      </a></li>
+              <li class="active"><a href="http://10.10.31.152/contestrank.php?cid=1003">
+			排名	      </a></li>
+              <li class="active"><a href="http://10.10.31.152/contestrank-oi.php?cid=1003">OI
+			排名	      </a></li>
+              <li class="active"><a href="http://10.10.31.152/conteststatistics.php?cid=1003">
+			统计	      </a></li>
+	      <li><a>]</a></li>
+	     <!-- <li ><a href="recent-contest.php"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> 名校联赛</a></li>
+	     -->
+              <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+	-->
+            </ul>
+	    <ul class="nav navbar-nav navbar-right">
+	    <li class="dropdown">
+            <a href="http://10.10.31.152/problem.php?cid=1003&amp;pid=4#" class="dropdown-toggle" data-toggle="dropdown"><span id="profile">登录</span><span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+<script src="./HUSTOJ discuss3_files/profile.php"></script><li><a href="http://10.10.31.152/loginpage.php">登录</a></li>&nbsp;<li><a href="http://10.10.31.152/registerpage.php">注册</a></li>&nbsp;
+              <!--<li><a href="../navbar-fixed-top/">Fixed top</a></li>-->
+	    </ul>
+	    </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+
+
+		<!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron"><marquee style="margin-top:10px" id="broadcast" direction="left" scrollamount="3" scrolldelay="50" onmouseover="this.stop()" onmouseout="this.start()" class="toprow"><center>
+	<span>欢迎关注微信公众号</span><img src="./HUSTOJ discuss3_files/wx.jpg" width="96px">onlinejudge
+</center>
+</marquee></div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<title>问题 E: 药店的药品销售统计系统（排序应用） </title><center><h3>问题 E: 药店的药品销售统计系统（排序应用）</h3><span class="green">时间限制: </span>1 Sec&nbsp;&nbsp;<span class="green">内存限制: </span>128 MB<br><span class="green">提交: </span>259&nbsp;&nbsp;<span class="green">解决: </span>42<br>[<a href="http://10.10.31.152/submitpage.php?cid=1003&amp;pid=4&amp;langmask=524212">提交</a>] [<a href="http://10.10.31.152/problemstatus.php?id=1584">状态</a>] [<a href="http://10.10.31.152/bbs.php?pid=1584&amp;cid=1003">讨论版</a>] [命题人:<span id="creator"><a href="http://10.10.31.152/userinfo.php?user=admin">admin</a></span>]</center></div><!--StartMarkForVirtualJudge-->
+				<div class="panel panel-body">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>
+								题目描述							</h4>
+						</div>
+						<div class="panel-body content">
+							<span style="font-size:16px;line-height:2;">&nbsp;&nbsp;&nbsp;&nbsp;你在一个L药品店当一名仓库管理员，马上就要放寒假回家过年了，L药店对这一年的销售情况做了统计，但这看起来太杂乱无章了。因此，你需要对这些数据进行整理，使他们看起来并不那么糟糕。“哦，我的天，是谁把阿莫新林放在了这？它应该放在那边的！最好在移动前用蒂花之秀先洗洗手，这样会显得更庄重些”。<br>
+<span> </span>&nbsp;&nbsp;&nbsp;&nbsp;所以说，你需要将它们进行排序，这样就会看起来好看。但是，L店长是个冷漠的人，他一语“从小到大”，便拂袖而去，并没有说要对什么属性进行排序。（啧，真麻烦！）这意味着你要分别按照各个属性进行从小到大排序，这些属性分别为“药品编号”(num)，“药品名称”(name)，“药品单价”(price)，“药品销售数量”(count)，“药品销售额”(sale=price*count)。</span><br>						</div>
+					</div>
+
+										<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>
+								输入							</h4>
+						</div>
+						<div class="panel-body content">
+							<span> </span> <span style="font-size:16px;line-height:2;">&nbsp; &nbsp; 第一行输入一个整数n(3&lt;=n&lt;=100)，<br>
+<span> </span>&nbsp; &nbsp; 接下来有n行，每行有四个数据项：字符串num(<span style="font-size:16px;">strlen(num)=4</span>)，字符串name(<span style="font-size:16px;">strlen(name)&lt;10</span>)，实数price(1&lt;=price&lt;=5e2)，整数count(1&lt;=count&lt;=5e3)，分别代表药品编号，药品名称，药品单价，药品销售数量。<br>
+<span> </span>&nbsp;&nbsp;&nbsp;&nbsp;保证所有数据不相同。换句话来说，无论使用哪种排序方法，保证排序结果唯一。</span><br>						</div>
+					</div>
+										<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>
+								输出							</h4>
+						</div>
+						<div class="panel-body content">
+							<span style="font-size:16px;line-height:2;">&nbsp; &nbsp; 分别输出<span style="font-size:16px;">药品编号、药品名称、药品单价、药品销售数量、</span><span style="font-size:16px;">药品销售额</span><span style="font-size:16px;">按照给定的标准从小到大的排序结果</span>。每个排序结果后跟随一个回车。</span> <br>						</div>
+					</div>
+										<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>
+								样例输入 
+								<a href="javascript:CopyToClipboard($(&#39;#sampleinput&#39;).text())">Copy</a>
+							</h4>
+						</div>
+						<div class="panel-body"><pre class="content"><span id="sampleinput" class="sampledata">4
+A001 Valium 3.5 23
+A002 Aspirin 9.8 59
+A003 Analgin 27.5 37
+A004 Insulin 94.8 19</span></pre>
+						</div>
+					</div>
+										<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>
+								样例输出								<a href="javascript:CopyToClipboard($(&#39;#sampleoutput&#39;).text())">Copy</a>
+							</h4>
+						</div>
+						<div class="panel-body"><pre class="content"><span id="sampleoutput" class="sampledata">A001	Valium	3.5	23	80.5
+A002	Aspirin	9.8	59	578.2
+A003	Analgin	27.5	37	1017.5
+A004	Insulin	94.8	19	1801.2
+
+A003	Analgin	27.5	37	1017.5
+A002	Aspirin	9.8	59	578.2
+A004	Insulin	94.8	19	1801.2
+A001	Valium	3.5	23	80.5
+
+A001	Valium	3.5	23	80.5
+A002	Aspirin	9.8	59	578.2
+A003	Analgin	27.5	37	1017.5
+A004	Insulin	94.8	19	1801.2
+
+A004	Insulin	94.8	19	1801.2
+A001	Valium	3.5	23	80.5
+A003	Analgin	27.5	37	1017.5
+A002	Aspirin	9.8	59	578.2
+
+A001	Valium	3.5	23	80.5
+A002	Aspirin	9.8	59	578.2
+A003	Analgin	27.5	37	1017.5
+A004	Insulin	94.8	19	1801.2
+</span></pre>
+						</div>
+					</div>
+										<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>
+								提示							</h4>
+						</div>
+						<div class="panel-body content">
+							<span style="font-size:16px;">&nbsp; &nbsp; 为了不丢失精度，建议本题所有实数型变量用double定义。</span> <br>
+<span style="font-size:16px;">&nbsp; &nbsp; 字符串的排序参照其字典序大小。<br>
+</span> <br>
+<span style="font-size:16px;">&nbsp; &nbsp; 五种属性排序使用不同的排序算法。</span> <br>
+<span style="font-size:16px;">输出格式参考：</span> <br>
+<span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;printf("%s\t%s\t%.1lf\t%d\t%.1lf\n", l.r[i].num, l.r[i].name, l.r[i].price, l.r[i].count, l.r[i].sale);<br>
+</span> <br>						</div>
+					</div>
+					
+				</div>
+			<center>
+				<!--EndMarkForVirtualJudge-->
+				<div class="panel-footer">
+					[<a href="http://10.10.31.152/submitpage.php?cid=1003&amp;pid=4&amp;langmask=524212">提交</a>][<a href="http://10.10.31.152/problemstatus.php?id=1584">状态</a>]				</div>
+			</center>
+		</div>
+	</div>
+	<!-- /container -->
+
+
+	<!-- Bootstrap core JavaScript
+  ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="./HUSTOJ discuss3_files/jquery.min.js.下载"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="./HUSTOJ discuss3_files/bootstrap.min.js.下载"></script>
+
+<!--  to enable mathjax in hustoj:
+svn export http://github.com/mathjax/MathJax/trunk /home/judge/src/web/mathjax
+<script type="text/javascript"
+  src="mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+or
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+-->
+<script>
+$(document).ready(function(){
+  var msg="<marquee style='margin-top:10px' id=broadcast direction='left' scrollamount=3 scrolldelay=50 onMouseOver='this.stop()'"+
+      " onMouseOut='this.start()' class=toprow>"+"<center>\r\n\t<span>\u6b22\u8fce\u5173\u6ce8\u5fae\u4fe1\u516c\u4f17\u53f7<\/span><img src=\"http:\/\/hustoj.com\/wx.jpg\" width=\"96px\" \/>onlinejudge\r\n<\/center>\r\n"+"</marquee>";
+  $(".jumbotron").prepend(msg);
+  $("form").append("<div id='csrf' />");
+  $("#csrf").load("csrf.php");
+  $("body").append("<div id=footer class=center >GPLv2 licensed by <a href='https://github.com/zhblue/hustoj' >HUSTOJ</a> "+(new Date()).getFullYear()+" </div>");
+  $("body").append("<div class=center > <img src='http://hustoj.com/wx.jpg' width='120px'><img src='http://hustoj.com/alipay.png' width='120px'><br> 欢迎关注微信公众号onlinejudge</div>");
+});
+
+$(".hint pre").each(function(){
+	var plus="<span class='glyphicon glyphicon-plus'>Click</span>";
+	var content=$(this);
+	$(this).before(plus);
+	$(this).prev().click(function(){
+		content.toggle();
+	});
+	
+});
+
+  console.log("If you want to change the appearance of the web pages, make a copy of bs3 under template directory.\nRename it to whatever you like, and change the $OJ_TEMPLATE value in db_info.inc.php\nAfter that modify files under your own directory .\n");
+  console.log("To enable mathjax in hustoj, check line 15 in /home/judge/src/web/template/bs3/js.php");
+
+</script>
+
+	<script>
+		function phpfm( pid ) {
+			//alert(pid);
+			$.post( "admin/phpfm.php", {
+				'frame': 3,
+				'pid': pid,
+				'pass': ''
+			}, function ( data, status ) {
+				if ( status == "success" ) {
+					document.location.href = "admin/phpfm.php?frame=3&pid=" + pid;
+				}
+			} );
+		}
+
+		$( document ).ready( function () {
+			$( "#creator" ).load( "problem-ajax.php?pid=1584" );
+		} );
+		function CopyToClipboard (input) {
+			var textToClipboard = input;
+			 
+			var success = true;
+			if (window.clipboardData) { // Internet Explorer
+			    window.clipboardData.setData ("Text", textToClipboard);
+			}
+			else {
+				// create a temporary element for the execCommand method
+			    var forExecElement = CreateElementForExecCommand (textToClipboard);
+			 
+				    /* Select the contents of the element 
+					(the execCommand for 'copy' method works on the selection) */
+			    SelectContent (forExecElement);
+			 
+			    var supported = true;
+			 
+				// UniversalXPConnect privilege is required for clipboard access in Firefox
+			    try {
+				if (window.netscape && netscape.security) {
+				    netscape.security.PrivilegeManager.enablePrivilege ("UniversalXPConnect");
+				}
+			 
+				    // Copy the selected content to the clipboard
+				    // Works in Firefox and in Safari before version 5
+				success = document.execCommand ("copy", false, null);
+			    }
+			    catch (e) {
+				success = false;
+			    }
+			 
+				// remove the temporary element
+			    document.body.removeChild (forExecElement);
+			}
+			 
+			if (success) {
+			    alert ("The text is on the clipboard, try to paste it!");
+			}
+			else {
+			    alert ("Your browser doesn't allow clipboard access!");
+			}
+			}
+			 
+			function CreateElementForExecCommand (textToClipboard) {
+			var forExecElement = document.createElement ("pre");
+			    // place outside the visible area
+			forExecElement.style.position = "absolute";
+			forExecElement.style.left = "-10000px";
+			forExecElement.style.top = "-10000px";
+			    // write the necessary text into the element and append to the document
+			forExecElement.textContent = textToClipboard;
+			document.body.appendChild (forExecElement);
+			    // the contentEditable mode is necessary for the  execCommand method in Firefox
+			forExecElement.contentEditable = true;
+			 
+			return forExecElement;
+			}
+			 
+			function SelectContent (element) {
+			    // first create a range
+			var rangeToSelect = document.createRange ();
+			rangeToSelect.selectNodeContents (element);
+			 
+			    // select the contents
+			var selection = window.getSelection ();
+			selection.removeAllRanges ();
+			selection.addRange (rangeToSelect);
+			}
+	</script>
+
+
+
+<!--not cached-->
+<div id="footer" class="center">GPLv2 licensed by <a href="https://github.com/zhblue/hustoj">HUSTOJ</a> 2019 </div><div class="center"> <img src="./HUSTOJ discuss3_files/wx.jpg" width="120px"><img src="./HUSTOJ discuss3_files/alipay.png" width="120px"><br> 欢迎关注微信公众号onlinejudge</div></body></html>
