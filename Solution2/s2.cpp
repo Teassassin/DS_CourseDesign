@@ -1,4 +1,10 @@
-// 停车场管理（栈和队列的应用）
+/*
+ * 停车场管理（栈和队列的应用）
+ * by TKK
+ * Created 2019/12/09
+ * Ended 2019/12/12
+ */
+
 #include <iostream>
 #include <cstring>
 #define MAXSIZE 100
@@ -17,18 +23,18 @@ typedef struct                                  // 顺序栈
     Car *base;                                  // 栈底指针
     Car *top;                                   // 栈顶指针
     int stacksize;                              // 栈可用的最大容量
-}SqStack;                                       
+} SqStack;                                       
 
 typedef struct QNode                            // 链队
 {
     Car data;
     struct QNode *next;
-}QNode, *QueuePtr;
+} QNode, *QueuePtr;
 typedef struct
 {
     QueuePtr front;                             // 队头指针
     QueuePtr rear;                              // 队尾指针
-}LinkQueue;
+} LinkQueue;
 
 /* 顺序栈 */
 bool InitStack(SqStack &S);                     // 构造一个空栈S

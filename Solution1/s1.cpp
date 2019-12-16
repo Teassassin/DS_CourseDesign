@@ -1,4 +1,10 @@
-// 单位员工通讯录管理系统（线性表的应用）
+/*
+ * 单位员工通讯录管理系统（线性表的应用）
+ * by TKK
+ * Created 2019/12/09
+ * Ended 2019/12/09
+ */
+
 #include <iostream>
 #include <cstring>
 #define MAXSIZE 100
