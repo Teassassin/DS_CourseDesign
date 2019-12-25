@@ -5,11 +5,11 @@
 <meta charset="utf-8">
 </head>
 <link type="text/css" href="css/style.css" rel="stylesheet">
+<script src="js/main.js"></script>
 <body>
     <div class="search">
-        <input type="text" placeholder="Type a word or list of words">
-        <button id="bt">Search</button>
+        <input id="inputbox" onkeyup="reactEnter()" type="text" placeholder="Type a word or list of words">
+        <button id="bt" onclick="search_main()">Search</button>
     </div>
 </body>
-<script src="js/main.js"></script>
 </html>

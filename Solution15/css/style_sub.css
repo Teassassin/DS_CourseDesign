@@ -1,21 +1,62 @@
 html, body {
-    width: 100%;
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F2F2F2;
-    font-weight: 500;
-    font-family: "Microsoft YaHei";
     margin: 0;
     padding: 0;
 }
 
-.search {
-    width: 50%;
-    height: 42px;
+.all {
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-family: "Microsoft YaHei";
+}
+
+.block1 {
+    margin-top: 42px;
+    width: 90%;
+    height: 100px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    flex-direction: row;
+}
+
+.block2 {
+    width: 100%;
+    height: auto;
+    margin-top: 42px;
+    display: flex;
+}
+
+.word {
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: #0078D4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.searchbox {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 80%;
+    height: 42px;
     transition: 0.3s;                       /* 阴影可过渡 */
+    display: flex;
 }
 
 .search input {
@@ -51,4 +92,22 @@ html, body {
 .search button:hover {
     background-color: #006CBE;
     transition: 0.1s;
+}
+
+.examplebox {
+    flex-direction: column;
+    border-radius: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 50px;
+    padding-top: 50px;
+    display: flex;
+    line-height: 300%;
+    font-size: large;
+    color: #2F4F4F;
+}
+
+p {
+    width: 100%;
+    background-color: #f2f2f2;
 }

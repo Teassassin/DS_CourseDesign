@@ -16,9 +16,18 @@
             "options": {
                 "cwd": "C:\\MinGW\\bin"
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
+            "problemMatcher": {
+                "owner": "gcc",
+                "fileLocation": ["relative", "\\"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            },
             "group": "build"
         }
     ]
