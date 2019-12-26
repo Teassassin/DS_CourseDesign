@@ -1,2 +1,0 @@
-document.write("<li><a href=modifypage.php>设置注册信息</a></li>&nbsp;<li><a href='userinfo.php?user=201811044423'><span id=red>用户信息</span></a></li>&nbsp;<li><a href='status.php?user_id=201811044423'><span id=red>我的提交</span></a></li>&nbsp;<li><a href='contest.php?my'><span id=red>我的竞赛&作业</span></a></li>&nbsp;<li><a href=logout.php>注销</a></li>&nbsp;");
-document.getElementById("profile").innerHTML="201811044423";
