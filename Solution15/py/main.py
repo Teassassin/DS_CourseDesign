@@ -1,8 +1,9 @@
 '''
+提取句子
 写入句子数组文件.js
-建立trie字典树
 写入索引文件.js
 TKK 2019/12/22
+end 2019/12/26
 '''
 
 import webbrowser as web
@@ -91,6 +92,8 @@ def main():
             if (word != "") and (not hasDigit(word)) and (not word.isspace()):
                 # print(word, end=' ')
                 word = word.lower()
+                # 前面句子加上了. 这里还要去掉
+                word = word.rstrip('.')
                 index[word].add(i)
                 index[stemmer(word)].add(i)
                 counts_involve += 1
