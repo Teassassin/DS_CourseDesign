@@ -144,7 +144,8 @@ $(document).ready(function () {
      * 接收主界面传来的参数
      */
     let strval = "";
-    let url = window.location.search; // 获取url中?后面的字符串
+    // 获取url中?后面的字符串，注意要使用decodeURI，否则空格会变成%20
+    let url = decodeURI(window.location.search);
     if (url.indexOf("?") != -1) {
         strval = url.substr(url.indexOf("=") + 1);
     }
